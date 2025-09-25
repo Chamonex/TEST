@@ -4,13 +4,6 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false,
-        "tarballDir": false
-      }
-    ],
-    [
       "@semantic-release/git",
       {
         "assets": [
@@ -21,12 +14,6 @@
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
-    [
-      "@semantic-release/github",
-      {
-        "githubUrl": "https://github.com",
-        "githubApiPathPrefix": ""
-      }
-    ]
+    "@semantic-release/github"
   ]
 }
