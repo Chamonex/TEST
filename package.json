@@ -1,7 +1,6 @@
 {
   "name": "test-semantic-release",
   "version": "0.0.0-development",
-  "private": true,
   "description": "Test repository with semantic-release",
   "main": "index.js",
   "scripts": {
@@ -19,6 +18,7 @@
   },
   "homepage": "https://github.com/Chamonex/TEST#readme",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^24.2.9"
   },
   "release": {
