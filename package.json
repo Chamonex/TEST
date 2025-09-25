@@ -1,11 +1,10 @@
 {
-  "name": "test-semantic-release",
-  "version": "0.0.0-development",
-  "private": true,
-  "description": "Test repository with semantic-release",
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Repositório de teste",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,14 +16,5 @@
   "bugs": {
     "url": "https://github.com/Chamonex/TEST/issues"
   },
-  "homepage": "https://github.com/Chamonex/TEST#readme",
-  "devDependencies": {
-    "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^24.2.9"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ]
-  }
+  "homepage": "https://github.com/Chamonex/TEST#readme"
 }

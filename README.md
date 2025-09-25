@@ -1,30 +1,19 @@
-# TEST - Semantic Release
+# TEST
 
-[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+Repositório de teste para experimentação e desenvolvimento.
 
-Este é um projeto de teste para implementação da biblioteca **semantic-release**.
+## Descrição
 
-## O que é semantic-release?
+Este é um projeto de teste básico.
 
-O semantic-release automatiza todo o fluxo de lançamento de versões incluindo:
+## Como usar
 
-- ✅ Determinação automática do próximo número de versão
-- ✅ Geração de notas de lançamento
-- ✅ Publicação do release no GitHub
-- ✅ Seguimento rigoroso do [Semantic Versioning](https://semver.org/)
+```bash
+git clone https://github.com/Chamonex/TEST.git
+cd TEST
+npm install
+```
 
-## Como funciona?
+## Licença
 
-O semantic-release analiza as mensagens de commit para determinar o tipo de release:
-
-| Tipo de Commit | Tipo de Release |
-|---|---|
-| `fix(pencil): stop graphite breaking when too much pressure applied` | **Patch** - Correção |
-| `feat(pencil): add 'graphiteWidth' option` | **Minor** - Nova funcionalidade |
-| `perf(pencil): remove graphiteWidth option BREAKING CHANGE: ...` | **Major** - Breaking change |
-
-## Configuração
-
-- ⚙️ Configurado via `.releaserc.json`
-- 🔄 Executado automaticamente via GitHub Actions
-- 📝 Usa [Angular Commit Message Conventions](https://github.com/angular/angular/blob/main/contributing-docs/commit-message-guidelines.md)
+MIT
